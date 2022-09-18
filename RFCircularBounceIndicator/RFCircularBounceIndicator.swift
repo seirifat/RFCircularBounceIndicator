@@ -7,8 +7,10 @@
 
 import UIKit
 
+@IBDesignable
 class RFCircularBounceIndicator: UIView {
     
+    @IBInspectable
     var circleColor: UIColor = .red
     
     init(circleColor: UIColor) {
@@ -20,6 +22,12 @@ class RFCircularBounceIndicator: UIView {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         self.setupViews()
+    }
+    
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        
+        setupViews()
     }
     
     private func setupViews() {

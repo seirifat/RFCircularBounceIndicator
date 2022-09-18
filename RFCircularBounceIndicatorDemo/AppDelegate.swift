@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DemoRFCBIndicator
+//  RFCircularBounceIndicatorDemo
 //
 //  Created by Rifat Firdaus on 18/09/22.
 //
